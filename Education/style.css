@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #081b29;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.education{
+    padding: 50px;
+    margin-top: 2px;
+    justify-content: center;
+}
+
+.education span{
+    color: #0ef;
+}
+.education p{
+    max-width: 500px;
+    color: #ebe9db;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 32%;
+    text-align: justify;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+.education h2{
+    color: #ebe9db;
+    font-size: 25px;
+    margin-bottom: -2rem;
+    text-align: center;
+    width: 100%;
+}
+.timeline-items{
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.timeline-items::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #0ef;
+    left: calc(50% - 1px);
+}
+.timeline-item{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+.timeline-item:last-child{
+    margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+    height: 20px;
+    width: 20px;
+    background-color: cyan;
+    box-shadow: 0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 75px cyan;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10px;
+}
+.timeline-date{
+    font-size: 19px;
+    font-weight: 800;
+    color: white;
+    margin: 2px 0 15px;
+}
+.timeline-content{
+    background-color: #081b29;
+    border: 3px solid #0ef;
+    padding: 15px 40px;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px #0ef;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.timeline-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px cyan;
+}
+.timeline-content h3{
+    font-size: 18px;
+    color: white;
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+.timeline-content p2{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
